@@ -138,21 +138,208 @@
 //console.log(result);
 
 //#15
-
-
-
+//function checkAge(age) {
+//let message;
+    //if (age >= 18) {   
+    //message = 'You are an adult';
+//} else {
+    //message = 'You are a minor';
+//}
+//return message;
+//}
+//let result = checkAge(20);
+//console.log(result);
+//result = checkAge(8);
+//console.log(result);
+//result = checkAge(14);
+//console.log(result);
+//result = checkAge(38);
+//console.log(result);
 
 //#16
+
+//function checkStorage(available, ordered) {
+  //let message;
+  //if (available >= ordered) {   
+    //message = "Order is processed, our manager will contact you.";
+  //} else
+  //{ message = "Not enough goods in stock!";
+//}
+//return message;
+//}
+//let result = checkStorage(100, 50);
+//console.log(result);
+//result = checkStorage(100, 130);
+//console.log(result);
+//result = checkStorage(200, 20);
+//console.log(result);
+//result = checkStorage(200, 150);
+//console.log(result);
+//result = checkStorage(150, 180);
+//console.log(result);
+
 //#17
+
+//let a = 5;
+//let b = 10;
+//let c = 15;
+//let d = 20;
+//a += 2;
+//b -= 4;
+//c *= 3;
+//d /= 10;
+
 //#18
+
+//function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+    //let message;
+    //let totalPrice = pricePerDroid * orderedQuantity;
+    //if (totalPrice > customerCredits) {
+        //message = `Insufficient funds!`;
+    //} else {
+        //message = `You ordered ${orderedQuantity} droids, you have ${customerCredits-totalPrice} credits left`;
+    //}
+  //return message;
+//}
+//let result = makeTransaction(3000, 5, 23000);
+//console.log(result);
+//result = makeTransaction(1000, 3, 15000);
+//console.log(result);
+//result = makeTransaction(5000, 10, 8000);
+//console.log(result);
+//result = makeTransaction(2000, 8, 10000);
+//console.log(result);
+//result = makeTransaction(500, 10, 5000);
+//console.log(result);
+
 //#19
+
+//function checkPassword(password) {
+  //const ADMIN_PASSWORD = 'jqueryismyjam';
+  //let message;
+
+  //if (password===null) { 
+    //message =  'Canceled by user!';
+  //} else if (password===ADMIN_PASSWORD) { 
+    //message = 'Welcome!';
+  //} else {
+    //message = 'Access denied, wrong password!';
+  //}
+
+ // return message;
+//}
+//let result = checkPassword("mangohackzor");
+//console.log(result);
+//result = checkPassword(null);
+//console.log(result);
+//result = checkPassword("polyhax");
+//console.log(result);
+//result = checkPassword("jqueryismyjam");
+//console.log(result);
+
 //#20
+
+//function checkStorage(available, ordered) {
+  //let message;
+  //if (ordered === 0) { 
+    //message = "There are no products in the order!";
+  //} else if (ordered > available) { 
+   // message = "Your order is too large, there are not enough items in stock!";
+  //} else {
+    //message = "The order is accepted, our manager will contact you";
+  //}
+
+  //return message;
+//}
+//let result = checkStorage(100, 50);
+//console.log(result);
+//result = checkStorage(100, 130);
+//console.log(result);
+//result = checkStorage(70, 0);
+//console.log(result);
+//result = checkStorage(200, 20);
+//console.log(result);
+//result = checkStorage(200, 250);
+//console.log(result);
+//result = checkStorage(150, 0);
+//console.log(result);
+
 //#21
+
+//function isNumberInRange(start, end, number) {
+  //const isInRange = (number>=start && number<=end);
+  //return isInRange;
+//}
+
 //#22
+
+//function checkIfCanAccessContent(subType) {
+  //const canAccessContent = (subType === "pro" || subType === "vip");
+  //return canAccessContent;
+//}
+
 //#23
+
+//function isNumberNotInRange(start, end, number) {
+  //const isInRange = number >= start && number <= end;
+  //const isNotInRange = !isInRange;
+  //return isNotInRange;
+//}
+
 //#24
+
+//function getDiscount(totalSpent) {
+  //const BASE_DISCOUNT = 0;
+  //const BRONZE_DISCOUNT = 0.02;
+  //const SILVER_DISCOUNT = 0.05;
+  //const GOLD_DISCOUNT = 0.1;
+  //let discount;
+    //if (totalSpent >= 50000) {
+        //discount = GOLD_DISCOUNT;
+    //} else if (totalSpent >= 20000 && totalSpent <= 50000) {
+        //discount = SILVER_DISCOUNT;
+    //} else if (totalSpent >= 5000 && totalSpent <= 20000) {
+        //discount = BRONZE_DISCOUNT;
+    //} else {
+        //discount = BASE_DISCOUNT;
+    //}
+//////return discount;
+//////}
+//////let result = getDiscount(137000);
+//////console.log(result);
+//////result = getDiscount(137000);
+//////console.log(result);
+//////result = getDiscount(46900);
+////console.log(result);
+////result = getDiscount(8250);
+////console.log(result);
+////result = getDiscount(1300);
+////console.log(result);
+////result = getDiscount(5000);
+//console.log(result);
+//result = getDiscount(20000);
+//console.log(result);
+//result = getDiscount(50000);
+//console.log(result);
+
 //#25
+
+//function checkStorage(available, ordered) {
+  //let message;
+    //{
+    //message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+  //}
+  //return message;
+//}
+//let result = checkStorage(100, 130);
+//console.log(result);
+//result = checkStorage(200, 20);
+//console.log(result);
+
 //#26
+
+
+
 //#27
 //#28
 //#29
