@@ -326,9 +326,7 @@
 
 //function checkStorage(available, ordered) {
   //let message;
-    //{
     //message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
-  //}
   //return message;
 //}
 //let result = checkStorage(100, 130);
@@ -338,15 +336,121 @@
 
 //#26
 
+//function checkPassword(password) {
+    //const ADMIN_PASSWORD = "jqueryismyjam";
+    //let message = password === ADMIN_PASSWORD ? "Access is allowed" : "Access denied, wrong password!";
+    //return message;
+//}
+
+//let result = checkPassword (angul4r1sl1f3);
+//console.log (result);
+//result = checkPassword (jqueryismyjam);
+//console.log (result);
 
 
 //#27
+
+//function getSubscriptionPrice(type) {
+  //let price;
+
+ //switch (type) { 
+     //case "starter" :
+      //price = 0;
+      //break;
+
+     //case "professional" :
+      //price = 20; 
+      //break;
+
+     //case "organization" : 
+      //price = 50; 
+      //break;
+  //}
+  //return price;
+//}
+
 //#28
+
+//function checkPassword(password) {
+  //const ADMIN_PASSWORD = "jqueryismyjam";
+  //let message;
+//switch (password) { 
+     //case null :
+      //message = "Canceled by user!";
+     // break;
+
+     //case ADMIN_PASSWORD :
+      //message = "Welcome!"; 
+      //break;
+
+     //default : 
+      //message = "Access denied, wrong password!"; 
+      //break;
+  //}
+  //return message;
+//}
+
 //#29
+
+//function getShippingCost(country) {
+//let message;
+//switch (country) { 
+    //case "China" :
+    //message = "Shipping to China will cost 100 credits";
+    //break;
+
+    //case "Chile" :
+    //message = "Shipping to Chile will cost 250 credits"; 
+    //break;
+
+    //case "Australia" :
+    //message = "Shipping to Australia will cost 170 credits"; 
+    //break;
+
+    //case "Jamaica" :
+    //message = "Shipping to Jamaica will cost 120 credits"; 
+    //break;
+    
+    //default : 
+    //message = "Sorry, there is no delivery to your country"; 
+    //break;
+//}
+  //return message;
+//}
+
 //#30
+
+//function getNameLength(name) {
+  //const message = `Name ${name} is ${name.length} characters long`; // Change this line
+
+  //return message;
+//}
+
 //#31
+
+//const courseTopic = "JavaScript essentials";
+//const courseTopicLength = (courseTopic.length);
+//const firstElement = (courseTopic[0]);
+//const lastElement = (courseTopic[courseTopic.length - 1]);
+
+//console.log (courseTopicLength)
+//console.log(firstElement)
+//console.log (lastElement)
+
 //#32
+
+
+
 //#33
+
+
+
 //#34
+
+
+
 //#35
+
+
+
 //#36
