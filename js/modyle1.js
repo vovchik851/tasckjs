@@ -439,18 +439,41 @@
 
 //#32
 
+//function getSubstring(string, length) {
+  //const substring = string.slice(0, length); // Change this line
 
+  //return substring;
+//}
 
 //#33
 
-
+//function formatMessage(message, maxLength) {
+  //let result;
+    //if (message.length <= maxLength) {
+        //result = message;
+    //} else { result = message.slice(0, maxLength) + "...";}
+  //return result;
+//}
 
 //#34
 
-
+//function normalizeInput(input) {
+  //const normalizedInput = input.toLowerCase(); 
+  //return normalizedInput;
+//}
 
 //#35
 
-
+//function checkForName(fullName, name) {
+ //const result = fullName.includes(name);
+  //return result;
+//}
 
 //#36
+
+//function checkForSpam(message) {
+    //let result;
+    //result = message.toLowerCase().includes("spam")
+    //|| message.toLowerCase().includes("sale");
+//return result;
+//}
