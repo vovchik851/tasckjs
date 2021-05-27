@@ -91,37 +91,119 @@
 //console.log(message);
 //№ 12
 
+//function makeStringFromArray(array, delimeter) {
+  //let string;
+//string = array.join(delimeter);
+  //return string;
+//}
+//let result = makeStringFromArray (["Mango", "hurries", "to", "the", "train"], " ");
+//console.log(result);
 
 //№ 13
 
+//function slugify(title) {
+
+//return title.toLowerCase()
+    //.trim()
+    //.split(" ")
+    //.join("-");
+
+//}
+//let result = slugify("Arrays for begginers");
+//console.log(result);
+//result = slugify("English for developer");
+//console.log(result);
 
 //№ 14
 
+//const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+//const firstTwoEls = fruits.slice(0,2);
+//const nonExtremeEls = fruits.slice(1,4);
+//const lastThreeEls = fruits.slice(-3);
 
 //№ 15
 
+//const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+//const newClients = ['Peach', 'Houston'];
+
+//const allClients = oldClients.concat(newClients);
 
 //№ 16
 
+    //function makeArray(firstArray, secondArray, maxLength) {
+    //let allArray = firstArray.concat(secondArray);
+    //const newArray = allArray.slice(0, maxLength);
+        //return newArray;
+  //}
 
 //№ 17
 
+//const start = 3;
+//const end = 7;
 
-//№ 18
+//for (let i = start; i <= end; i += 1) { // Change this line
+  //console.log(i);
+//}
 
+//№ 18 сума чисел
+
+//function calculateTotal(number) {
+//let sum=0;
+//for (let i = 1; i <= number; i += 1) {
+//sum+=i;
+//}
+  //return sum;
+//}
 
 //№ 19
 
+//const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+//for (let i = 0; i < fruits.length; i+=1) { 
+  //const fruit = fruits[i]; 
+  //console.log(fruit);
+//}
 
 //№ 20
 
+//function calculateTotalPrice(order) {
+  //let total = 0;
+//for ( let i = 0; i < order.length; i+=1) { 
+  //total += order[i]; 
+//}
+  //return total;
+//}
 
 //№ 21
 
+//function findLongestWord(string) {
+    //const newArray = string.split(" ");
+    //console.log(newArray);
+    //let findLongestWord = newArray[0];
+    //for (let i = 0; i < newArray.length; i+=1) { 
+        //if (findLongestWord.length < newArray[i].length)
+        //{
+            //findLongestWord = newArray[i];
+        //}
+    //}
+    //return findLongestWord;
+//}
+//let result = findLongestWord("The quick brown fox jumped over the lazy dog");
+//console.log(result);
 
-//№ 22
+//№ 22 Метод push()
+
+//function createArrayOfNumbers(min, max) {
+  //const numbers = [];
+//for(let i = min; i<=max; i+=1){
+  //numbers.push(i);
+  //}
+  //return numbers;
+//}
 
 //№ 23
+
+
 
 //№ 24
 
