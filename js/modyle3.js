@@ -205,29 +205,105 @@
 
 //#13 Метод Object.keys()
 
-
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// const keys = Object.keys(apartment);
+// for (const key of keys) {
+//     values.push(apartment[key]);
+// }
 
 //#14
 
+// function countProps(object) {
+//   let propCount = 0;
+//     const keys = Object.keys(object);
+//   for (const key of keys) {
+//       propCount += 1;
+//   }
+
+//   return propCount;
+// }
+
+//#15 Метод Object.values()
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
 
 
-//#15
+//#16 Задача. Расходы на зарплату
+
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   // Change code below this line
+//     const values = Object.values(salaries);
+//     for (const value of values) {
+//        totalSalary += value;
+//   }
+//   return totalSalary;
+// }
 
 
+//#17 Массив объектов
 
-//#16
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
 
+// const hexColors = [];
+// const rgbColors = [];
+// for (let color of colors) {
+// hexColors.push(color.hex);
+// rgbColors.push(color.rgb)
+// };
 
+//#18 Задача. Поиск объекта по значению свойства
 
-//#17
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
 
+// function getProductPrice(productName) {
+//     for (const product of products) {
+//         if (productName === product.name) {
+//             return product.price;
+//         }
+//     }
+//     return null;
+// }
 
+//#19 Задача. Коллекция значений свойства
 
-//#18
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
 
-
-
-//#19
+// function getAllPropValues(propName) {
+//     const arrProducts = [];
+//     for (const product of products) {
+//         if (product[propName]) {
+//       arrProducts.push(product[propName]);
+//     }
+//   }
+//   return arrProducts;
+// }
 
 
 
