@@ -447,22 +447,35 @@
 
 //#30 Задача. Карточки задач
 
-function makeTask(data) {
-  const completed = false;
-  const category = 'General';
-  const priority = 'Normal';
-  // Change code below this line
+// function makeTask(data) {
+//   const completed = false;
+//   const category = 'General';
+//   const priority = 'Normal';
+//     const newData = { completed, category, priority, ...data };
+//     return newData;
+// }
 
-  // Change code above this line
-}
+//#31 Операция rest для сбора всех аргументов функции
 
-//#31
-
-
+// function add(...args) {
+//   let value = 0;
+//   for (arg of args) {
+//     value += arg;
+//   }
+//   return value;
+// }
 
 //#32
 
+function addOverNum(...args) {
+  let total = 0;
 
+  for (const arg of args) {
+    total += arg;
+  }
+
+  return total;
+}
 
 //#33
 
