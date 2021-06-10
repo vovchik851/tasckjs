@@ -467,46 +467,142 @@
 
 //#32
 
-function addOverNum(...args) {
-  let total = 0;
+// function addOverNum(values,...args) {
+//   let total = 0;
 
-  for (const arg of args) {
-    total += arg;
-  }
+//   for (const arg of args) {
+//     if (arg > values) {
+//       total += arg;
+//     }
+//   }
 
-  return total;
-}
+//   return total;
+// }
 
-//#33
+//#33 Задача. Массив совпадений
 
+// function findMatches(...args) {
+//   const matches = [];
+// for (let i = 1; i < args.length; i += 1) {
+//  if (args[0].includes(args[i])) {   
+//    matches.push(args[i]);
+//  }
+//   return matches;
+// }
 
+//#34 Методы объекта
 
-//#34
-
-
-
-//#35
-
-
-
-//#36
-
-
-
-//#37
-
-
-
-//#38
-
-
-
-//#39
-
-
-
-//#40
-
+// const bookShelf = {
+//   books: ['The last kingdom', 'The guardian of dreams'],
+//   getBooks() {
+//     return 'Returning all books';
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`
+//   },
+// };
 
 
-//#41
+
+//#35 Доступ к свойствам объекта в его методах
+
+// const bookShelf = {
+//   books: ['The last kingdom', 'Haze', 'The guardian of dreams'],
+//   updateBook(oldName, newName) {
+// 	const index = this.books.indexOf(oldName);
+//     this.books.splice(index,1,newName);
+//   },
+// };
+
+//#36 Задача. Лавка зелий «У старой жабы»
+
+// const atTheOldToad = {
+//  potions:[],
+// };
+
+
+
+//#37 Задача. Получаем все зелья
+
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+//   getPotions(){
+//     return this.potions;
+//   }
+// };
+
+
+//#38 Задача. Добавляем новое зелье
+
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+//   addPotion(potionName) {
+//     return this.potions.push(potionName);
+//   },
+// };
+
+//#39 Задача. Удаляем зелье
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     this.potions.splice(this.potions.indexOf(potionName), 1);
+    
+//   },
+// };
+
+//#40 Задача. Обновляем зелье
+
+const atTheOldToad = {
+  potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+  updatePotionName(oldName, newName) {
+ const index = this.potions.indexOf(oldName);
+     this.potions.splice(index,1,newName);
+  },
+};
+
+//#41 Задача. Расширяем инвентарь
+
+const atTheOldToad = {
+  potions: [
+    { name: 'Speed potion', price: 460 },
+    { name: 'Dragon breath', price: 780 },
+    { name: 'Stone skin', price: 520 },
+  ],
+  // Change code below this line
+  getPotions() {
+    return this.potions;
+  },
+  addPotion(potionName) {
+    if (this.potions.includes(potionName)) {
+      return `Potion ${potionName} is already equipped!`;
+    }
+
+    this.potions.push(potionName);
+  },
+  removePotion(potionName) {
+    const potionIndex = this.potions.indexOf(potionName);
+
+    if (potionIndex === -1) {
+      return `Potion ${potionName} is not in inventory!`;
+    }
+
+    this.potions.splice(potionIndex, 1);
+  },
+  updatePotionName(oldName, newName) {
+    const potionIndex = this.potions.indexOf(oldName);
+
+    if (potionIndex === -1) {
+      return `Potion ${oldName} is not in inventory!`;
+    }
+
+    this.potions.splice(potionIndex, 1, newName);
+  },
+  // Change code above this line
+};
